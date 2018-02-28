@@ -15,19 +15,19 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
- //var uppercase = 'HELLO!'
- //var lowercase = 'hello!'
- //var mixedCase = 'I love you, Grandma!'
+ var uppercase = 'YES INDEED!'
+ var lowercase = 'I can\'t hear you!'
+ var mixedCase = 'I love you, too!'
   
   
   if(string.toUpperCase() === 'HELLO!') {
-    return ('YES INDEED!');
+    console.log (uppercase);
   }
   else if (string.toLowerCase() === 'hello!') {
-    return ('I can not hear you!');
+    console.log (lowercase);
   }
   else if (string === 'I love you, Grandma!') {
-    return ('I love you, too.')
+    console.log (mixedCase);
   }
 }
 
